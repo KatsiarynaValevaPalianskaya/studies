@@ -2,7 +2,7 @@
   "name": "project",
   "version": "1.0.0",
   "description": "test project",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "npx ts-node testFile1.ts"
   },
