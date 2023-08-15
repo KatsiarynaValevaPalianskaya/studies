@@ -4,7 +4,7 @@
   "description": "test project",
   "main": "index.ts",
   "scripts": {
-    "test": "npx ts-node testFile1.ts"
+    "test": "ts-node hw-2/index.ts"
   },
   "author": "Kat Kat",
   "license": "ISC",
