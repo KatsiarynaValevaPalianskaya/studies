@@ -4,7 +4,8 @@
   "description": "test project",
   "main": "index.ts",
   "scripts": {
-    "test": "ts-node hw-2/index.ts"
+    "test": "ts-node hw-2/index.ts",
+    "hw-3": "ts-node hw-3/index.ts"
   },
   "author": "Kat Kat",
   "license": "ISC",
