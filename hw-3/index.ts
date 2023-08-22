@@ -43,7 +43,7 @@ let a = 1;
 let b = 2;
 let c = "white bears";
 
-console.log(String(a) + b + " " + "white bears")
+console.log(String(a) + b + " " + c)
 
 // Task 5
 // Создайте переменные и поместите в них нижеприведенные слова. Затем создайте еще одну переменную **`lengthWords`** и посчитайте в ней длинну всех слов из списка:
@@ -54,8 +54,8 @@ let word3 = "ice";
 let word4 = "garden";
 let word5 = "jaw";
 
-let lengthhWords = word1 + word2 + word3 + word4 + word5;
-console.log(lengthhWords.length)
+let lengthWords = word1 + word2 + word3 + word4 + word5;
+console.log(lengthWords.length)
 
 // Task 6
 // Создайте переменные и присвойте им значения:
@@ -150,7 +150,8 @@ if (value > 16 && value < 18) {
 // + `east` - `just go to the right`
 // Используйте конструкцию switch
 
-let side = "east";
+let side: string = "east";
+
 switch (side) {
     case "south":
         console.log("you need to turn around");

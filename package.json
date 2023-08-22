@@ -5,7 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "test": "ts-node hw-2/index.ts",
-    "hw-3": "ts-node hw-3/index.ts"
+    "hw-3": "ts-node hw-3/index.ts",
+    "hw-4": "ts-node hw-4/index.ts"
   },
   "author": "Kat Kat",
   "license": "ISC",
