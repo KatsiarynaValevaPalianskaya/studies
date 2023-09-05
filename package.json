@@ -7,7 +7,11 @@
     "test": "ts-node hw-2/index.ts",
     "hw-3": "ts-node hw-3/index.ts",
     "hw-4": "ts-node hw-4/index.ts",
-    "hw-5": "ts-node hw-5/index.ts"
+    "hw-5": "ts-node hw-5/index.ts",
+    "hw-6": "ts-node hw-6/index.ts",
+    
+    "format:code": "prettier --write\"**/*.js"
+    
   },
   "author": "Kat Kat",
   "license": "ISC",
