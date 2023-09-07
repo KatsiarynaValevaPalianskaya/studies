@@ -1,8 +1,8 @@
 // Task 1
 // Пользователь передает через переменную свою фамилию и имя. Выведите приветствие `Привет <Имя> <Фамилия>` 5 раз используя для каждого варианта разный регистр
-let nameSurname: string = "Ivan Smith! ";
-let phrase: string = "Hello, ";
-console.log(phrase.concat(nameSurname.toUpperCase()).repeat(5));
+let firstName: string = "Ivan";
+let lastName: string = "Smith";
+console.log(`Hello, ${firstName.toUpperCase()} ${lastName.toLocaleLowerCase()} \n`.repeat(5));
 
 // Task 2
 // Дана строка 'я учу typescript!'. Проверить, есть ли данное слово в строке: если есть - вывести позицию подстроки 'учу', если нет - вывести строку `Данной подстроки нет`

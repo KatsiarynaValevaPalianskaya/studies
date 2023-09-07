@@ -80,5 +80,35 @@ const validatorObject = {
   
   validatorObject.login("kat","1234", validatorObject.register("kat","1234"));
 
+  // Task 6
+  // Дан объект. Дан объект. Вычислите среднюю зарплату сотрудников и результат поместите в соответствующую переменную
+
+  let salaries: {
+    andrey: number;
+    sveta: number;
+    anton: number;
+    alexey: number;
+    alexandra: number;
+    [key: string]: number;
+} = {
+    andrey: 500,
+    sveta: 413,
+    anton: 987,
+    alexey: 664,
+    alexandra: 199,
+};
+
+let denominator: number = 0;
+let salarySum: number = 0;
+
+for (const key in salaries) {
+    denominator += 1;
+    salarySum += salaries[key];
+}
+
+const mediumSalary = salarySum/denominator;
+
+
+
 
 export{};
