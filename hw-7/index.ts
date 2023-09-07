@@ -12,6 +12,7 @@ console.log(animals[animals.length - 1]);
 
 // Task 3
 // Дан массив. Удалите все элементы в массиве и выведите в консоль полученный результат
+// Реализуйте решение двумя способами.
 
 const numbers = [5, 43, 63, 23, 90];
 numbers.pop();
@@ -19,7 +20,9 @@ numbers.pop();
 numbers.pop();
 numbers.pop();
 numbers.pop();
-console.log(numbers.splice(0, 5));
+
+numbers.splice(0, 5);
+console.log(numbers);
 
 // Task 4
 // Дан массив. 
