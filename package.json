@@ -11,6 +11,7 @@
     "hw-6": "ts-node hw-6/index.ts",
     "hw-7": "ts-node hw-7/index.ts",
     "hw-8": "ts-node hw-8/index.ts",
+    "hw-9": "ts-node hw-9/index.ts",
     
     "format:code": "prettier --write\"**/*.js"
     
